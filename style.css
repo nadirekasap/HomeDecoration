@@ -1,0 +1,62 @@
+/*Index.html */
+body,html {
+    height:100%;
+}
+.body{
+    background: url(img/01.jpg) center no-repeat;
+    background-size: cover; /* kapak,ortme */
+    height:100%;
+}
+.entry{
+    margin-top: 150px;
+}
+.text {
+    font-family: 'Raleway', sans-serif;
+}
+a:link{ color:#16120f;
+    text-decoration:none; }  /*Linklerin ilk halidir. */
+
+a:visited{ color:#16120f; 
+    text-decoration:none; }  /*Linklerin ziyaret edildikten sonraki halidir. */
+
+a:hover{ color:#16120f;
+    text-decoration:none; }  /*Mouse linkin üzerine geldigindeki halidir. */
+
+a:active{ color:#16120f;
+    text-decoration:none; }  /*Mouse ile linke tiklandigi andaki halidir. */
+
+/* About.html */
+img {       /*gorsel boyutlarimi duzelttim*/
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+  }  
+/*Contact.html*/
+.bgi{
+    background-image: url(img/02.jpg);
+    background-size: cover;
+
+}
+.inpt{
+    display: flex;
+    justify-content: center;
+}
+#fnt{
+    font-style: italic;
+}
+.carousel {
+    max-height: whatever;
+} 
+/*How To */
+.how{
+    background: url(img/hw01.jpg) center no-repeat;
+    background-size:cover ; /* kapak,ortme */
+    height:100%;
+}
+.size{
+    width: 200px;
+    height: 250px;
+}
+
+
